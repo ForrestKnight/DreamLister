@@ -22,6 +22,7 @@
 		5E8412471E3704DF00732CA5 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E84123F1E3704DF00732CA5 /* Store+CoreDataClass.swift */; };
 		5E8412481E3704DF00732CA5 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8412401E3704DF00732CA5 /* Store+CoreDataProperties.swift */; };
 		5E84124F1E37B4E800732CA5 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E84124E1E37B4E800732CA5 /* MaterialView.swift */; };
+		5ED46D3C1E3ACC7200FDF420 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED46D3B1E3ACC7200FDF420 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		5E84123F1E3704DF00732CA5 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
 		5E8412401E3704DF00732CA5 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5E84124E1E37B4E800732CA5 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		5ED46D3B1E3ACC7200FDF420 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				5E84124E1E37B4E800732CA5 /* MaterialView.swift */,
+				5ED46D3B1E3ACC7200FDF420 /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED46D3C1E3ACC7200FDF420 /* ItemCell.swift in Sources */,
 				5E8412431E3704DF00732CA5 /* ItemType+CoreDataClass.swift in Sources */,
 				5E8412271E36FF3100732CA5 /* MainVC.swift in Sources */,
 				5E8412421E3704DF00732CA5 /* Image+CoreDataProperties.swift in Sources */,
@@ -366,6 +370,7 @@
 				5E8412381E36FF3100732CA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
