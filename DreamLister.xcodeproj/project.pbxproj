@@ -78,8 +78,8 @@
 			children = (
 				5E84124D1E37B4C900732CA5 /* View */,
 				5E8412491E3704E700732CA5 /* Model */,
-				5E8412241E36FF3100732CA5 /* AppDelegate.swift */,
 				5E8412261E36FF3100732CA5 /* MainVC.swift */,
+				5E8412241E36FF3100732CA5 /* AppDelegate.swift */,
 				5E8412281E36FF3100732CA5 /* Main.storyboard */,
 				5E84122E1E36FF3100732CA5 /* Assets.xcassets */,
 				5E8412301E36FF3100732CA5 /* LaunchScreen.storyboard */,

@@ -12,12 +12,4 @@ import CoreData
 
 public class Image: NSManagedObject {
     
-    
-    public override func awakeFromInsert() {
-        
-        super.awakeFromInsert()
-        
-        self.created = NSDate()
-    }
-    
 }
