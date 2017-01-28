@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CoreData 
+import CoreData
 
 extension ItemType {
 
