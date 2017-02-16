@@ -23,7 +23,11 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         tableView.dataSource = self
         
         attemptFetch()
-        generateTestData()
+      
+        // Load the test data only the first time
+        if !UserDefaults.standard.bool(forKey: "TestDataLoaded") {
+          generateTestData()
+        }
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -189,6 +193,10 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         item3.details = "This car is sleek and beautiful, and one day, I will own it."
         
         ad.saveContext()
+      
+        // Set this key to false, so the test data doesn't load again
+        UserDefaults.standard.set(true, forKey: "TestDataLoaded")
+        UserDefaults.standard.synchronize()
     }
 
 }

@@ -23,6 +23,11 @@ class ItemDetailsVC: UIViewController, UIPickerViewDataSource, UIPickerViewDeleg
 
     override func viewDidLoad() {
         super.viewDidLoad()
+      
+        // UITextfieldDelegate
+        titleField.delegate = self
+        priceField.delegate = self
+        detailsField.delegate = self
 
         if let topItem = self.navigationController?.navigationBar.topItem {
             topItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
@@ -192,4 +197,13 @@ class ItemDetailsVC: UIViewController, UIPickerViewDataSource, UIPickerViewDeleg
     
     
 
+}
+
+extension ItemDetailsVC: UITextFieldDelegate {
+  
+  // When tapped return - dismiss the keyboard
+  func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+    textField.resignFirstResponder()
+    return true
+  }
 }
