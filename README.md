@@ -5,4 +5,4 @@ An iOS application where you create a list of items you wish to have one day. Yo
 # What I Learned
 
 * Core Data (Entities, Attributes, Relationships)
-* Fetch images & information using NSFetchedResultsController
+* Fetch and display images & information using NSFetchedResultsController
